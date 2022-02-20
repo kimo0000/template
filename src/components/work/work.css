@@ -1,0 +1,54 @@
+.work-container {
+    box-sizing: border-box;
+    margin: 100px 0;
+}
+
+.work-title {
+    font-size: 60px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.work-title span {
+    font-weight: normal;
+}
+
+
+.work-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-one {
+    width: 25%;
+    height: 350px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 70px 10px;
+}
+
+.work-box .icon {
+    font-size: 50px;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.work-box h3 {
+    color: #f50;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.work-box .work-bar {
+    width: 50%;
+    text-align: center;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.work-box p {
+    padding: 30px 50px;
+    letter-spacing: 1.5;
+    color: #888;
+}
+

@@ -1,0 +1,55 @@
+.social {
+    display: flex;
+}
+
+.social-facebook, .social-twitter, .social-pinterest {
+    width: 33.33%;
+    box-sizing: border-box;
+    
+}
+
+.social-facebook, .social-twitter, .social-pinterest  {
+    background: blue;
+    padding: 100px 0 100px 60px;
+    position: relative;
+}
+
+.social-twitter {
+    background: rgb(82, 82, 248);
+}
+
+.social-pinterest {
+    background: #f50;
+}
+
+.social .icon {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    text-align: center;
+    font-size: 30px;
+    color: #888;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.social-info {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+}
+
+.social-text1, .social-text2 {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.social-text1 {
+    font-weight: bold;
+}
+
+.social-text2 {
+    font-size: 20px;
+}

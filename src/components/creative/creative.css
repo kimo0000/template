@@ -1,0 +1,60 @@
+.creative {
+    margin-top: 50px;
+    background: red;
+    height: 600px;
+    background: url("../../../public/images/about/about-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.creative-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.creative-content {
+    width: 48%;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.creative-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.creative-title span {
+    font-weight: normal;
+}
+
+.creative-info {
+    font-size: 50px;
+    color: #f50;
+    text-transform: uppercase;
+}
+
+.creative-info span {
+    font-weight: normal;
+}
+
+.creative-desc {
+    margin-top: 80px;
+}
+
+.creative-description1 {
+    line-height: 1.5rem;
+    color: #888; 
+    margin-bottom: 30px; 
+}
+
+.creative-description2 {
+    color: #888;
+}
+
+.creative-description a {
+    text-decoration: none;
+}
+

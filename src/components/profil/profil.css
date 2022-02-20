@@ -1,0 +1,89 @@
+.profil-skills {
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.profil, .skills {
+    width: 30%;
+}
+
+.profil-title {
+    margin-left: 30px;
+}
+
+.profil-title, .skills-title {
+    font-size: 60px;
+}
+
+.profil-title span, .skills-title span {
+    font-weight: normal;
+}
+
+.profil-list {
+    list-style: none;
+}
+
+.profil-item {
+    margin-bottom: 10px;
+}
+
+.profil-item span {
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}
+
+.profil-item-web {
+    color : #f50;
+    cursor: pointer;
+}
+
+.skills-desc {
+    color: #888;
+}
+
+.bar {
+    margin-bottom: 10px;
+}
+
+.bar-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.bar-pourcentage-one {
+    margin-right: 10%;
+}
+
+.bar-pourcentage-two {
+    margin-right: 20%;
+}
+
+.bar-progress {
+    height: 1%;
+    position: relative;
+}
+
+.bar-one , .bar-two, .bar-three {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f50;
+}
+
+.bar-two {
+    width: 90%;    
+}
+
+.bar-three {
+    width: 80%;
+}
+
+
+
